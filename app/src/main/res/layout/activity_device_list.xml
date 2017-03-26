@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_paired_scan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Paired Devices" />
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/btn_paired_scan" />
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="scan for devices" />
+
+</LinearLayout>
