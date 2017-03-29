@@ -4,7 +4,7 @@ package com.theory.emhwang.bluetoothproject.model;
  * Created by hwangem on 2017-03-24.
  */
 
-public class BLEDevice {
+public class BLEData {
 
     private String deviceName;
 

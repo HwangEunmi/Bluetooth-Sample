@@ -232,7 +232,7 @@ public class DeviceListActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
 
-        // 작업 취소소
+        // 작업 취소
         if (mBLEAdapter != null) {
             mBLEAdapter.cancelDiscovery();
         }

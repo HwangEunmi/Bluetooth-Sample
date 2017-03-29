@@ -3,9 +3,7 @@ package com.theory.emhwang.bluetoothproject.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
-import android.os.Message;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -14,8 +12,6 @@ import com.theory.emhwang.bluetoothproject.R;
 import com.theory.emhwang.bluetoothproject.common.BleHandler;
 import com.theory.emhwang.bluetoothproject.common.BluetoothHelper;
 import com.theory.emhwang.bluetoothproject.common.Constants;
-
-import static com.theory.emhwang.bluetoothproject.activity.DeviceListActivity.EXTRA_DEVICE_ADDRESS;
 
 public class MainActivity extends Activity {
 
@@ -141,7 +137,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                mIntent = new Intent(MainActivity.this, SettingActivity.class);
+                mIntent = new Intent(MainActivity.this, BLESearchActivity.class);
                 startActivity(mIntent);
             }
         });

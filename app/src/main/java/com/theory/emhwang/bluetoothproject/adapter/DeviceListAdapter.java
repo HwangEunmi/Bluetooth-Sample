@@ -1,6 +1,7 @@
 package com.theory.emhwang.bluetoothproject.adapter;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -8,6 +9,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import com.theory.emhwang.bluetoothproject.R;
+import com.theory.emhwang.bluetoothproject.model.BLEData;
 
 import java.util.ArrayList;
 import java.util.List;
